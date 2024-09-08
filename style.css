@@ -1,0 +1,559 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #acd1dd;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 120px;
+}
+
+.logo {
+  width: 5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0 3rem 0 3rem;
+}
+
+nav ul {
+  display: flex;
+  font-weight: bold;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 5rem;
+  font-size: 1.1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main */
+
+.losango img {
+  width: 320px;
+  height: 350px;
+  border-radius: 81px;
+}
+
+.primarySection {
+  display: flex;
+  justify-content: space-between;
+  margin: 12rem 30rem 12rem 30rem;
+  align-items: center;
+}
+
+.presentation h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 1.5rem;
+}
+
+.presentation p {
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.secondSection {
+  background-color: rgba(172, 209, 221, 0.1);
+  width: 100%;
+  height: auto;
+  padding: 10rem 40rem 10rem 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secondSection h1 {
+  font-size: 1.8rem;
+  padding-bottom: 1.5rem;
+}
+
+.secondSection p {
+  text-align: justify;
+  line-height: 1.2rem;
+}
+
+.thirdSection {
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.primaryProject {
+  display: flex;
+  padding: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 59rem;
+  background-color: rgba(172, 209, 221, 0.1);
+  border-radius: 1rem;
+}
+
+.thirdSection h1 {
+  font-size: 1.8rem;
+}
+
+.primaryProject p {
+  text-align: justify;
+  line-height: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5rem;
+}
+
+.SecondProject {
+  display: flex;
+  padding: 4rem;
+  width: 59rem;
+  background-color: rgba(172, 209, 221, 0.1);
+  border-radius: 1rem;
+}
+
+.SecondProject p {
+  text-align: justify;
+  line-height: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5rem;
+}
+
+.fourthSection {
+  width: 100%;
+  height: auto;
+  background-color: rgba(172, 209, 221, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 35rem 8rem 35rem;
+}
+
+.fourthSection h1 {
+  font-size: 1.8rem;
+}
+
+.descricao {
+  padding: 2rem 5rem 2rem 5rem;
+  line-height: 1.2rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.containerSectionFormacao {
+  display: flex;
+}
+
+.bacharel {
+  padding-bottom: 3rem;
+}
+
+.tecnico,
+.bacharel {
+  line-height: 1.8rem;
+}
+
+.tecnico,
+.bacharel {
+  background-color: #acd1dd;
+  width: 20rem;
+  height: auto;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tecnico {
+  margin-right: 3rem;
+}
+
+.firstSectionFooter {
+  width: 100%;
+  background-color: rgba(172, 209, 221, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 0 3rem 0;
+}
+
+.firstSectionFooter h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.secondSectionFooter {
+  background-color: #acd1dd;
+}
+
+.logosFooter {
+  width: 2rem;
+}
+
+.containerFooter {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40rem 0 40rem;
+}
+
+.linkedin,
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logosFooter {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.secondSectionFooter p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  nav {
+    margin: 0 1rem 0 1rem;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-left: 1rem;
+  }
+
+  /* Main */
+
+  .losango img {
+    width: 240px;
+    height: 260px;
+    border-radius: 71px;
+  }
+
+  .primarySection {
+    margin: 3rem 3rem 0rem 3rem;
+    flex-direction: column-reverse;
+  }
+
+  .presentation h1 {
+    font-size: 37px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .presentation p {
+    margin-bottom: 1rem;
+    font-size: 18px;
+  }
+
+  .secondSection {
+    padding: 5rem 3rem 5rem 3rem;
+  }
+
+  .containerThirdSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+
+  .primaryProject {
+    padding: 0rem;
+    margin: 0rem;
+    width: 90%;
+  }
+
+  .primaryProject p {
+    padding-left: 0rem;
+    margin: 3rem 3rem 3rem 3rem;
+  }
+
+  .SecondProject {
+    padding: 0rem;
+    margin: 0rem;
+    width: 90%;
+  }
+
+  .SecondProject p {
+    padding-left: 0rem;
+    margin: 3rem 3rem 3rem 3rem;
+  }
+
+  .fourthSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0rem 3rem 0rem;
+  }
+
+  .containerSectionFormacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tecnico {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .descricao {
+    padding: 3rem 3rem 3rem 3rem;
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .fourthSection h1 {
+    padding-top: 3rem;
+  }
+
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0rem 0 0rem;
+  }
+
+  .email {
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    margin: 0 1rem 0 1rem;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-left: 1rem;
+  }
+
+  /* Main */
+
+  .losango img {
+    width: 240px;
+    height: 260px;
+    border-radius: 71px;
+  }
+
+  .primarySection {
+    margin: 3rem 3rem 3rem 3rem;
+  }
+
+  .presentation h1 {
+    font-size: 37px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .presentation p {
+    margin-bottom: 1rem;
+    font-size: 18px;
+  }
+
+  .secondSection {
+    padding: 5rem 6rem 5rem 6rem;
+  }
+
+  .containerThirdSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .primaryProject {
+    padding: 0rem;
+    margin: 0rem;
+    width: 70%;
+  }
+
+  .primaryProject p {
+    padding-left: 0rem;
+    margin: 3rem 3rem 3rem 3rem;
+  }
+
+  .SecondProject {
+    padding: 0rem;
+    margin: 0rem;
+    width: 70%;
+  }
+
+  .SecondProject p {
+    padding-left: 0rem;
+    margin: 3rem 3rem 3rem 3rem;
+  }
+
+  .fourthSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0rem 3rem 0rem;
+  }
+
+  .containerSectionFormacao {
+    display: flex;
+    align-items: center;
+  }
+
+  .tecnico {
+    margin-bottom: 1rem;
+  }
+
+  .bacharel {
+    margin-bottom: 1rem;
+  }
+
+  .descricao {
+    padding: 3rem 5rem 3rem 5rem;
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .fourthSection h1 {
+    padding-top: 3rem;
+  }
+
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0rem 0 0rem;
+  }
+
+  .email {
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  nav {
+    margin: 0 1rem 0 1rem;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin-left: 1rem;
+  }
+
+  /* Main */
+
+  .losango img {
+    width: 240px;
+    height: 260px;
+    border-radius: 71px;
+  }
+
+  .primarySection {
+    margin: 3rem 15rem 3rem 15rem;
+  }
+
+  .presentation h1 {
+    font-size: 37px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .presentation p {
+    margin-bottom: 1rem;
+    font-size: 18px;
+  }
+
+  .containerThirdSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 16rem;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .secondSection {
+    padding: 3rem 20rem 3rem 20rem;
+  }
+
+  .primaryProject {
+    padding: 0rem;
+    margin: 0rem;
+    width: 55%;
+  }
+
+  .primaryProject p {
+    padding-left: 0rem;
+    margin: 3rem 3rem 3rem 3rem;
+  }
+
+  .SecondProject {
+    padding: 0rem;
+    margin: 0rem;
+    width: 55%;
+  }
+
+  .SecondProject p {
+    padding-left: 0rem;
+    margin: 3rem 3rem 3rem 3rem;
+  }
+
+  .fourthSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0rem 3rem 0rem;
+  }
+
+  .containerSectionFormacao {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .tecnico {
+    margin-bottom: 1rem;
+  }
+
+  .bacharel {
+    margin-bottom: 1rem;
+  }
+
+  .descricao {
+    padding: 3rem 20rem 3rem 20rem;
+    line-height: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .fourthSection h1 {
+    padding-top: 3rem;
+  }
+
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0rem 0 0rem;
+  }
+
+  .email {
+    padding-top: 2rem;
+  }
+}
